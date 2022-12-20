@@ -1,0 +1,195 @@
+
+body { background-image: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg");
+   background-position: center;
+    background-color: aqua;
+    
+
+    color: white;
+    text-align: center;
+    font-family: 'Staatliches', sans-serif;
+}
+
+.title {
+    font-size: 50px;
+    background-image: linear-gradient(#1327EB,#9FFFE6);
+    font-weight: 800;
+    padding: 0 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+.firstImage {
+    height: 450px;
+    background-color: #9FFFE6;
+    margin: 5px;
+    padding: 5px;
+    border-width: 5px;
+    border-color:#1327EB ;
+    border-style: double;
+    
+}
+
+.start-button {
+    color: red;
+    height: 40px;
+}
+.image-2{display:none;
+    background-color: #9FFFE6;
+    margin: 5px;
+    padding: 5px;
+    border-width: 5px;
+    border-color:#1327EB ;
+    border-style: double;
+}
+.text2{display:none;
+    color: #25E585;
+}
+.button2{display:none;  
+}
+.image-red{ width: 450px;display: flex;  border-width: 10px;
+    border-color: white; border-style: solid;
+} 
+.image-blue{ width:450px;display: flex;  
+} 
+.image-p{ display: flex; justify-content:space-around ;display:none;
+} 
+.text3{display:none; color:#25E585;
+}
+.enemy{width:600px ;display:none;
+    background-color: #FE384A;
+    margin: 5px;
+    padding: 5px;
+    border-width: 5px;
+    border-color: white ;
+    border-style: dotted;
+} 
+.text4{display:none; color:#FE384A;
+}
+.fight{display:none; color:red;
+}
+.sneak{display: none; color:blue;
+    
+}
+.ded{width:450px; display: none;
+     background-color: #0A3D14;
+    margin: 5px;
+    padding: 5px;
+    border-width: 5px;
+    border-color: #6B109B ;
+    border-style: dotted;
+}
+.red-ded{width:450px;display:none; 
+     background-color: #0A3D14;
+    margin: 5px;
+    padding: 5px;
+    border-width: 5px;
+    border-color: #6B109B ;
+    border-style: dotted;
+}
+.text5{display: none; color:#810D34;
+}
+.red-end{display: none;
+    background-color: #3F36C4;
+    margin: 5px;
+    padding: 5px;
+    border-width: 5px;
+    border-color:#C520FA ;
+    border-style: double;
+} 
+.text-end-r{display:none; color:#C520FA;
+}
+.end{display:none; color:purple;
+}
+.end-img{display:none; width:600px;
+    background-color: #9FFFE6;
+    margin: 5px;
+    padding: 5px;
+    border-width: 5px;
+    border-color:#1327EB ;
+    border-style: double;
+} 
+.continue{display:none; 
+}
+.sneak-img{ width:600px; display:none;
+    background-color: #FE384A;
+    margin: 5px;
+    padding: 5px;
+    border-width: 5px;
+    border-color: white ;
+    border-style: dotted;
+} 
+.text-sneak{ display: none; color:#25E585;
+}
+.b-enemy{width:550px; display:none;
+    background-color: #0A3D14;
+    margin: 5px;
+    padding: 5px;
+    border-width: 5px;
+    border-color: #6B109B ;
+    border-style: dotted;
+} 
+.blue1{color:#2391FF; display:none;
+}
+.b-attack{color:red; display:none;
+}
+.ignore{color:blue; display:none;
+}
+.attack-path{width:550px; display:none;
+    background-color: #1FDCFE;
+    margin: 5px;
+    padding: 5px;
+    border-width: 5px;
+    border-color: #6509FB ;
+    border-style: dotted;
+}
+.blue-2{color:#2391FF; display:none;
+}
+.b-conclusion{color:red; display:none;
+}
+.blue-end{width:600px; display:none;
+    background-color: #3F36C4;
+    margin: 5px;
+    padding: 5px;
+    border-width: 5px;
+    border-color:#C520FA ;
+    border-style: double;
+}
+.end-b{color:#C520FA; display:none; 
+}
+.blue-ded{width:600px; display:none;
+     background-color: #0A3D14;
+    margin: 5px;
+    padding: 5px;
+    border-width: 5px;
+    border-color: #6B109B ;
+    border-style: dotted;
+}
+.b-ded{color:#810D34; display:none;
+}
+.end2{display:none; color:purple;
+}
+.end-img2{display:none; width:600px;
+    background-color: #9FFFE6;
+    margin: 5px;
+    padding: 5px;
+    border-width: 5px;
+    border-color:#1327EB ;
+    border-style: double;
+} 
+/* Check out `display:none`. What do you think it does?*/
+.treasure {
+    display: none;
+    font-family: 'Coiny', cursive;
+}
+h1 {
+    font-size: 50px;
+}
